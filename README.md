@@ -1,2 +1,2 @@
 # IMDb
-IMDb (Internet Movie Database) is an online database of information related to films can show the movies and their actors and directors.
+IMDb (Internet Movie Database) is an online database of information related to films that can show the profiles of movies and their actors and directors.
