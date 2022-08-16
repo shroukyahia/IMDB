@@ -1,0 +1,22 @@
+﻿@model IEnumerable<imdb.Models.fav_act>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @foreach (var item in Model)
+    {
+
+        <img src="@Html.DisplayFor(modelItem => item.Actor.photo)" height="150px" />
+
+        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+
+    }
+
+</body>
+</html>
